@@ -13,7 +13,7 @@ import java.util.function.Supplier;
 @Service
 @RequiredArgsConstructor
 public class RateLimitingService {
-    private static final  int REQUEST_PER_MINUTES = 0;
+    private static final  int REQUEST_PER_MINUTES = 10;
     private  final ProxyManager<String> proxyManager;
 
 
